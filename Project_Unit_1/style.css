@@ -10,6 +10,7 @@ body {
 }
 
 h2 {
+    font-family: arial, sans-serif;
     color: white;
 }
 
@@ -19,6 +20,10 @@ h3 {
 
 img {
     border-radius: 5px;
+    margin-top: 100px;
+    width: 280px;
+    height: 400px;
+    border: 10px solid grey;
 }
 
 #title {
@@ -28,15 +33,17 @@ img {
 
 }
 
-#wrapper {
-
-
-}
-
 #startBox {
     background-color: grey;
-    width:300px;
+    width:200px;
     display: inline-block;
+    margin-top: 60px;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+#startBtn {
+    margin-bottom: 30px;
 }
 
 #modal {
@@ -49,6 +56,7 @@ img {
 	z-index: 1;
 	overflow: auto;
     display: none;
+    font-family: arial, sans-serif;
 }
 
 #modal1 {
@@ -64,6 +72,7 @@ img {
     margin: 150px auto;
     box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
     display: none;
+    font-family: arial, sans-serif;
 }
 
 #modal2 {
@@ -79,6 +88,7 @@ img {
     margin: 150px auto;
     box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
     display: none;
+    font-family: arial, sans-serif;
 }
 
 #modal3 {
@@ -94,6 +104,7 @@ img {
     margin: 150px auto;
     box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
     display: none;
+    font-family: arial, sans-serif;
 }
 
 #modal4 {
@@ -109,4 +120,5 @@ img {
     margin: 150px auto;
     box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
     display: none;
+    font-family: arial, sans-serif;
 }
