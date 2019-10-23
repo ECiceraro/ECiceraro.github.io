@@ -10,12 +10,13 @@ Avengers quiz
 
 Description:
 
-Answer a few questions and find out which Marvel superhero you're most like.
+Answer a couple(should be a few) questions and find out which Marvel superhero you're most like.
 
 Explanations of technologies used:
 
 - The webpage pulls data from the marvel comic api.
 - The JQuery library was used and linked in the head.
+- I also used a proxy to pull the data from the marvel DB, https://cors-        anywhere.herokuapp.com/. This allowed me to get around the http vs https challenge of loading the data on the live git pages site.
 
 Installation:
 
