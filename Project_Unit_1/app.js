@@ -14,7 +14,7 @@ $(() => {
             $('#thorBtn').on('click', () => {
                 $('body').empty();
                 $.ajax({
-                    url: 'https://gateway.marvel.com/v1/public/characters?ts=1&apikey=187c414f1f1e4d077498e7946b51406c&hash=0041ac5fd25fe417201b1259bcedacac&name=Thor',
+                    url: 'https://cors-anywhere.herokuapp.com/https://gateway.marvel.com/v1/public/characters?ts=1&apikey=187c414f1f1e4d077498e7946b51406c&hash=0041ac5fd25fe417201b1259bcedacac&name=Thor',
                 }).then(
                     (data) => {
                         console.log(data);
@@ -31,7 +31,7 @@ $(() => {
             $('#capBtn').on('click', () => {
                 $('body').empty();
                 $.ajax({
-                    url: 'https://gateway.marvel.com/v1/public/characters?ts=1&apikey=187c414f1f1e4d077498e7946b51406c&hash=0041ac5fd25fe417201b1259bcedacac&name=Captain America',
+                    url: 'https://cors-anywhere.herokuapp.com/https://gateway.marvel.com/v1/public/characters?ts=1&apikey=187c414f1f1e4d077498e7946b51406c&hash=0041ac5fd25fe417201b1259bcedacac&name=Captain America',
                 }).then(
                     (data) => {
                         $('body').append('<h2> You are most like ' + data.data.results[0].name + '</h2>');
@@ -47,7 +47,7 @@ $(() => {
             $('#hulkBtn').on('click', () => {
                 $('body').empty();
                 $.ajax({
-                    url: 'https://gateway.marvel.com/v1/public/characters?ts=1&apikey=187c414f1f1e4d077498e7946b51406c&hash=0041ac5fd25fe417201b1259bcedacac&name=Hulk',
+                    url: 'https://cors-anywhere.herokuapp.com/https://gateway.marvel.com/v1/public/characters?ts=1&apikey=187c414f1f1e4d077498e7946b51406c&hash=0041ac5fd25fe417201b1259bcedacac&name=Hulk',
                 }).then(
                     (data) => {
                         $('body').append('<h2> You are most like ' + data.data.results[0].name + '</h2>');
@@ -69,7 +69,7 @@ $(() => {
             $('#ironManBtn').on('click', () => {
                 $('body').empty();
                 $.ajax({
-                    url: 'https://gateway.marvel.com/v1/public/characters?ts=1&apikey=187c414f1f1e4d077498e7946b51406c&hash=0041ac5fd25fe417201b1259bcedacac&name=Iron man',
+                    url: 'https://cors-anywhere.herokuapp.com/https://gateway.marvel.com/v1/public/characters?ts=1&apikey=187c414f1f1e4d077498e7946b51406c&hash=0041ac5fd25fe417201b1259bcedacac&name=Iron man',
                 }).then(
                     (data) => {
                         $('body').append('<h2> You are most like ' + data.data.results[0].name + '</h2>');
@@ -85,7 +85,7 @@ $(() => {
             $('#spiderBtn').on('click', () => {
                 $('body').empty();
                 $.ajax({
-                    url: 'https://gateway.marvel.com/v1/public/characters?ts=1&apikey=187c414f1f1e4d077498e7946b51406c&hash=0041ac5fd25fe417201b1259bcedacac&name=Spider-Man',
+                    url: 'https://cors-anywhere.herokuapp.com/https://gateway.marvel.com/v1/public/characters?ts=1&apikey=187c414f1f1e4d077498e7946b51406c&hash=0041ac5fd25fe417201b1259bcedacac&name=Spider-Man',
                 }).then(
                     (data) => {
                         $('body').append('<h2> You are most like ' + data.data.results[0].name + '</h2>');
@@ -101,7 +101,7 @@ $(() => {
             $('#strangeBtn').on('click', () => {
                 $('body').empty();
                 $.ajax({
-                    url: 'https://gateway.marvel.com/v1/public/characters?ts=1&apikey=187c414f1f1e4d077498e7946b51406c&hash=0041ac5fd25fe417201b1259bcedacac&name=Doctor Strange',
+                    url: 'https://cors-anywhere.herokuapp.com/https://gateway.marvel.com/v1/public/characters?ts=1&apikey=187c414f1f1e4d077498e7946b51406c&hash=0041ac5fd25fe417201b1259bcedacac&name=Doctor Strange',
                 }).then(
                     (data) => {
                         $('body').append('<h2> You are most like ' + data.data.results[0].name + '</h2>');
@@ -123,7 +123,7 @@ $(() => {
             $('#widowBtn').on('click', () => {
                 $('body').empty();
                 $.ajax({
-                    url: 'https://gateway.marvel.com/v1/public/characters?ts=1&apikey=187c414f1f1e4d077498e7946b51406c&hash=0041ac5fd25fe417201b1259bcedacac&name=Black Widow',
+                    url: 'https://cors-anywhere.herokuapp.com/https://gateway.marvel.com/v1/public/characters?ts=1&apikey=187c414f1f1e4d077498e7946b51406c&hash=0041ac5fd25fe417201b1259bcedacac&name=Black Widow',
                 }).then(
                     (data) => {
                         $('body').append('<h2> You are most like ' + data.data.results[0].name + '</h2>');
@@ -139,7 +139,7 @@ $(() => {
             $('#hawkeyeBtn').on('click', () => {
                 $('body').empty();
                 $.ajax({
-                    url: 'https://gateway.marvel.com/v1/public/characters?ts=1&apikey=187c414f1f1e4d077498e7946b51406c&hash=0041ac5fd25fe417201b1259bcedacac&name=Hawkeye',
+                    url: 'https://cors-anywhere.herokuapp.com/https://gateway.marvel.com/v1/public/characters?ts=1&apikey=187c414f1f1e4d077498e7946b51406c&hash=0041ac5fd25fe417201b1259bcedacac&name=Hawkeye',
                 }).then(
                     (data) => {
                         $('body').append('<h2> You are most like ' + data.data.results[0].name + '</h2>');
@@ -155,7 +155,7 @@ $(() => {
             $('#falconBtn').on('click', () => {
                 $('body').empty();
                 $.ajax({
-                    url: 'https://gateway.marvel.com/v1/public/characters?ts=1&apikey=187c414f1f1e4d077498e7946b51406c&hash=0041ac5fd25fe417201b1259bcedacac&name=Falcon',
+                    url: 'https://cors-anywhere.herokuapp.com/https://gateway.marvel.com/v1/public/characters?ts=1&apikey=187c414f1f1e4d077498e7946b51406c&hash=0041ac5fd25fe417201b1259bcedacac&name=Falcon',
                 }).then(
                     (data) => {
                         $('body').append('<h2> You are most like ' + data.data.results[0].name + '</h2>');
