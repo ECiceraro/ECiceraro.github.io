@@ -20,7 +20,12 @@ $(() => {
                         console.log(data);
                         $('body').append('<h2> You are most like ' + data.data.results[0].name + '</h2>');
                         $('body').append('<h2>' + data.data.results[0].description + '</h2>');
-                        $('body').append('<img src="' + data.data.results[0].thumbnail.path + "/portrait_incredible." + data.data.results[0].thumbnail.extension + '"/>')
+                        $('body').append('<img src="' + data.data.results[0].thumbnail.path + "/portrait_incredible." + data.data.results[0].thumbnail.extension + '"/>');
+                        $('body').append('<br>');
+                        $('body').append('<button type="button" id="restartBtn">Play Again</button>');
+                        $('#restartBtn').on('click', () => {
+                            location.reload();
+                        })
                     },
                     (error) => {
                         console.log('ERROR');
@@ -36,7 +41,12 @@ $(() => {
                     (data) => {
                         $('body').append('<h2> You are most like ' + data.data.results[0].name + '</h2>');
                         $('body').append('<h2>' + data.data.results[0].description + '</h2>');
-                        $('body').append('<img src="' + data.data.results[0].thumbnail.path + "/portrait_incredible." + data.data.results[0].thumbnail.extension + '"/>')
+                        $('body').append('<img src="' + data.data.results[0].thumbnail.path + "/portrait_incredible." + data.data.results[0].thumbnail.extension + '"/>');
+                        $('body').append('<br>');
+                        $('body').append('<button type="button" id="restartBtn">Play Again</button>');
+                        $('#restartBtn').on('click', () => {
+                            location.reload();
+                        })
                     },
                     (error) => {
                         console.log('ERROR');
@@ -52,7 +62,12 @@ $(() => {
                     (data) => {
                         $('body').append('<h2> You are most like ' + data.data.results[0].name + '</h2>');
                         $('body').append('<h2>' + data.data.results[0].description + '</h2>');
-                        $('body').append('<img src="' + data.data.results[0].thumbnail.path + "/portrait_incredible." + data.data.results[0].thumbnail.extension + '"/>')
+                        $('body').append('<img src="' + data.data.results[0].thumbnail.path + "/portrait_incredible." + data.data.results[0].thumbnail.extension + '"/>');
+                        $('body').append('<br>');
+                        $('body').append('<button type="button" id="restartBtn">Play Again</button>');
+                        $('#restartBtn').on('click', () => {
+                            location.reload();
+                        });
                     },
                     (error) => {
                         console.log('ERROR');
@@ -74,7 +89,12 @@ $(() => {
                     (data) => {
                         $('body').append('<h2> You are most like ' + data.data.results[0].name + '</h2>');
                         $('body').append('<h2>' + data.data.results[0].description + '</h2>');
-                        $('body').append('<img src="' + data.data.results[0].thumbnail.path + "/portrait_incredible." + data.data.results[0].thumbnail.extension + '"/>')
+                        $('body').append('<img src="' + data.data.results[0].thumbnail.path + "/portrait_incredible." + data.data.results[0].thumbnail.extension + '"/>');
+                        $('body').append('<br>');
+                        $('body').append('<button type="button" id="restartBtn">Play Again</button>');
+                        $('#restartBtn').on('click', () => {
+                            location.reload();
+                        })
                     },
                     (error) => {
                         console.log('ERROR');
@@ -90,7 +110,12 @@ $(() => {
                     (data) => {
                         $('body').append('<h2> You are most like ' + data.data.results[0].name + '</h2>');
                         $('body').append('<h2>' + data.data.results[0].description + '</h2>');
-                        $('body').append('<img src="' + data.data.results[0].thumbnail.path + "/portrait_incredible." + data.data.results[0].thumbnail.extension + '"/>')
+                        $('body').append('<img src="' + data.data.results[0].thumbnail.path + "/portrait_incredible." + data.data.results[0].thumbnail.extension + '"/>');
+                        $('body').append('<br>');
+                        $('body').append('<button type="button" id="restartBtn">Play Again</button>');
+                        $('#restartBtn').on('click', () => {
+                            location.reload();
+                        })
                     },
                     (error) => {
                         console.log('ERROR');
@@ -106,7 +131,12 @@ $(() => {
                     (data) => {
                         $('body').append('<h2> You are most like ' + data.data.results[0].name + '</h2>');
                         $('body').append('<h2>After a car crash severely damages his hands and hinders his ability to perform surgery, Doctor Strange searched the globe for a way to repair them and encounters the Ancient One... who ultimately passes the title of Sorcerer Supreme after Strange mastered the mystical arts. </h2>');
-                        $('body').append('<img src="' + data.data.results[0].thumbnail.path + "/portrait_incredible." + data.data.results[0].thumbnail.extension + '"/>')
+                        $('body').append('<img src="' + data.data.results[0].thumbnail.path + "/portrait_incredible." + data.data.results[0].thumbnail.extension + '"/>');
+                        $('body').append('<br>');
+                        $('body').append('<button type="button" id="restartBtn">Play Again</button>');
+                        $('#restartBtn').on('click', () => {
+                            location.reload();
+                        })
                     },
                     (error) => {
                         console.log('ERROR');
@@ -128,7 +158,12 @@ $(() => {
                     (data) => {
                         $('body').append('<h2> You are most like ' + data.data.results[0].name + '</h2>');
                         $('body').append('<h2> Black Widow is a human, trained in the arts of espionage and martial arts, with specialities in hand-to-hand combat and interrogation. She has the athletic prowess of an Olympic class athlete and appears nearly superhuman at times.</h2>');
-                        $('body').append('<img src="' + data.data.results[0].thumbnail.path + "/portrait_incredible." + data.data.results[0].thumbnail.extension + '"/>')
+                        $('body').append('<img src="' + data.data.results[0].thumbnail.path + "/portrait_incredible." + data.data.results[0].thumbnail.extension + '"/>');
+                        $('body').append('<br>');
+                        $('body').append('<button type="button" id="restartBtn">Play Again</button>');
+                        $('#restartBtn').on('click', () => {
+                            location.reload();
+                        });
                     },
                     (error) => {
                         console.log('ERROR');
@@ -144,7 +179,12 @@ $(() => {
                     (data) => {
                         $('body').append('<h2> You are most like ' + data.data.results[0].name + '</h2>');
                         $('body').append('<h2> The man who would become known as Hawkeye was born Clint Barton. Orphaned at an early age, he joined the circus and apprenticed himself to the Bowman, a performer who specialized in tricks with bow and arrow.</h2>');
-                        $('body').append('<img src="' + data.data.results[0].thumbnail.path + "/portrait_incredible." + data.data.results[0].thumbnail.extension + '"/>')
+                        $('body').append('<img src="' + data.data.results[0].thumbnail.path + "/portrait_incredible." + data.data.results[0].thumbnail.extension + '"/>');
+                        $('body').append('<br>');
+                        $('body').append('<button type="button" id="restartBtn">Play Again</button>');
+                        $('#restartBtn').on('click', () => {
+                            location.reload();
+                        });
                     },
                     (error) => {
                         console.log('ERROR');
@@ -160,7 +200,12 @@ $(() => {
                     (data) => {
                         $('body').append('<h2> You are most like ' + data.data.results[0].name + '</h2>');
                         $('body').append('<h2>' + data.data.results[0].description + '</h2>');
-                        $('body').append('<img src="' + data.data.results[0].thumbnail.path + "/portrait_incredible." + data.data.results[0].thumbnail.extension + '"/>')
+                        $('body').append('<img src="' + data.data.results[0].thumbnail.path + "/portrait_incredible." + data.data.results[0].thumbnail.extension + '"/>');
+                        $('body').append('<br>');
+                        $('body').append('<button type="button" id="restartBtn">Play Again</button>');
+                        $('#restartBtn').on('click', () => {
+                            location.reload();
+                        });
                     },
                     (error) => {
                         console.log('ERROR');
