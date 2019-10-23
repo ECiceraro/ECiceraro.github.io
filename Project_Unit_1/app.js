@@ -24,7 +24,7 @@ $(() => {
                         $('body').append('<br>');
                         $('body').append('<button type="button" id="restartBtn">Play Again</button>');
                         $('#restartBtn').on('click', () => {
-                            location.reload();
+                             location.reload();
                         })
                     },
                     (error) => {
